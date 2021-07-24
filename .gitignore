@@ -1,0 +1,9 @@
+__pycache__
+.idea
+._*
+.DS_Store
+._.DS_Store
+models
+debug_file
+models/resnet*
+models/inception_v4.ckpt

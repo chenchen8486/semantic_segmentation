@@ -1,0 +1,13 @@
+{
+  "CUDA_VISIBLE_DEVICES": "0",
+  "INFERENCE_ALL_IMAGE": 0,
+  "SUB_IMAGE_SIZE": 768,
+  "NUM_CLASSES": 5,
+  "SUB_IMAGE_SIZE": 768,
+  "MODEL_NAME": "DeepLabV3_plus",
+  "FRONTEND": "MobileNetV2",
+  "CHECKPOINT_DIR": "D:/3_deep_leaerning_project/semantic_segmentation_ckpt/without_sampling",
+  "SCORE_MAP_THRESH": 128,
+  "BATCH_SIZE": 3,
+  "MERGE_DIS_THRE": 30
+}

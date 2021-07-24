@@ -1,0 +1,36 @@
+{
+  "CUDA_VISIBLE_DEVICES": "1",
+  "GPU_MEMORY_FRACTION": 0.9999,
+  "IMAGE_SIZE": 768,
+  "NUM_EPOCHS": 10000,
+  "EPOCH_START": 0,
+  "DATASET": "sample",
+  "H_FLIP": true,
+  "V_FLIP": true,
+  "BRIGHTNESS": 0.5,
+  "MODEL": "DeepLabV3_plus",
+  "FRONTEND": "MobileNetV2",
+
+  "G_STEP": 0,
+  "NUM_CLASSES": 5,
+  "CHANNEL_NUM": 3,
+  "LEARNING_RATE": 0.00001,
+  "BATCH_SIZE": 1,
+  "HAVE_OK_IMAGE": false,
+  "READ_OK": 3,
+  "CHECKPOINT_PATH": "D:/3_deep_leaerning_project/semantic_segmentation_ckpt/without_sampling",
+  "USE_FOCAL_LOSS": false,
+  "USE_CLASS_BALANCE_WEIGHTS": false,
+  "CLASS_NAME": ["ng0", "ng1", "ng2", "ng3", "ng4"],
+  "CLASS_MODEL": "multi_label",
+  "LABEL_GRAY_DIFF": 40,
+  "IMAGE_TRAIN_DIR": "D:/4_data/B10_cell_data/data0/total_train_data/generate_gt/ng",
+  "MASK_TRAIN_DIR": "D:/4_data/B10_cell_data/data0/total_train_data/generate_gt/labels",
+  "OK_IMAGE_DIR":   "D:/4_data/B10_cell_data/data0/total_train_data/generate_gt/ok",
+  "OK_ROOT_DIR":    "D:/4_data/B10_cell_data/data0/total_train_data/generate_gt/",
+  "OK_FILE": ["ok", "nothing"],
+
+  "CROP_DIR": "/home/xddz/workspace/zw/chip_training_data/croped_image",
+  "CROP_RAND_THRESHOLD": 0.3
+
+}

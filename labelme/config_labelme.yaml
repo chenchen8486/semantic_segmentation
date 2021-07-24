@@ -1,0 +1,36 @@
+# GPU 占用率
+gpu_memory_fraction: 0.3
+cuda_visible_devices: '0'
+num_classes: 5
+model_name: "DeepLabV3_plus"
+frontend: "MobileNetV2"
+ckpt_dir: 'D:/3_deep_leaerning_project/semantic_segmentation_ckpt/model.ckpt-58800'
+image_width: 768
+image_height: 768
+class_model: 'multi_label'  # 配置多分类和多标签：multi_classify、multi_label
+
+filled_area_thre: [300, 30, 10, 10, 10]
+mask_seq: 5
+root_dir: 'C:/Users/admin/Desktop/test'
+save_dir: 'C:/Users/admin/Desktop/test/dst'
+save_json: true
+label_name: ['frontier', 'mark', 'corner', 'broken', 'chipping']
+json_path: 'C:/Users/admin/Desktop/test/dst'
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
