@@ -5,5 +5,7 @@ __pycache__
 ._.DS_Store
 models
 debug_file
-models/resnet*
-models/inception_v4.ckpt
+resnet_v2_50.ckpt
+resnet_v2_101.ckpt
+resnet_v2_152.ckpt
+inception_v4.ckpt
